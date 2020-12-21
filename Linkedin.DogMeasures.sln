@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogMeasures.Tests", "DogMea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.DogMesasures.Test", "xUnit.DogMesasures.Test\xUnit.DogMesasures.Test.csproj", "{CBAC8BB3-C28E-4A3C-BFA1-DEB1206BCE28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.DogMeasures.Tests", "NUnit.DogMeasures.Tests\NUnit.DogMeasures.Tests.csproj", "{CF612D95-3F00-4896-96C6-8BD199CC75D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CBAC8BB3-C28E-4A3C-BFA1-DEB1206BCE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBAC8BB3-C28E-4A3C-BFA1-DEB1206BCE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBAC8BB3-C28E-4A3C-BFA1-DEB1206BCE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF612D95-3F00-4896-96C6-8BD199CC75D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF612D95-3F00-4896-96C6-8BD199CC75D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF612D95-3F00-4896-96C6-8BD199CC75D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF612D95-3F00-4896-96C6-8BD199CC75D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
