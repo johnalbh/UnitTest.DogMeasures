@@ -19,7 +19,16 @@ namespace xUnit.DogMesasures.Test
         {
             Assert.Throws<ArgumentNullException>(() => _dogMeasuresService.CheckDogIdealWeight(null, 0));
         }
-
+        [Fact]
+        public void ThrowsBreedNotFoundException_IfBreedIsSamoyedo()
+        {
+            Assert.Throws<ArgumentNullException>(() => _dogMeasuresService.CheckDogIdealWeight("samoyedo", 20));
+        }
+        [Fact]
+        public void ThrowsArgumentOutOfRangeException_IfBreedOsNull()
+        {
+            Assert.Throws<ArgumentNullException>(() => _dogMeasuresService.CheckDogIdealWeight("bóxer", -5));
+        }
 
     }
 }
